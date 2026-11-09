@@ -1,0 +1,14 @@
+ 1. XÂY DỰNG CHUỖI TRUY VẤN (QUERY) NÂNG CAO
+Để tìm kiếm chính xác file PDF giáo trình chính thống từ các trường đại học/cao đẳng và loại bỏ hoàn toàn các trang web rác, ta sử dụng câu lệnh (Query) sau trên Google:
+"Nhập môn Công nghệ Thông tin" filetype:pdf site:edu.vn -site:tailieu.vn -site:123doc.net
+ Giải thích cấu trúc câu lệnh:
+- `"Nhập môn Công nghệ Thông tin"`: Đặt trong dấu ngoặc kép để buộc Google tìm kiếm chính xác tuyệt đối cụm từ này, tránh kết quả bị tách rời các từ.
+- `filetype:pdf`: Giới hạn kết quả trả về chỉ là các tệp định dạng PDF.
+- `site:edu.vn`: Chỉ định Google chỉ tìm kiếm trong phạm vi các trang web thuộc hệ thống giáo dục Việt Nam (.edu.vn), giúp đảm bảo tài liệu uy tín, chính thống từ nhà trường.
+- `-site:tailieu.vn -site:123doc.net`: Sử dụng toán tử trừ (-) kết hợp với domain để loại bỏ các trang web tổng hợp tài liệu rác, diễn đàn yêu cầu nạp thẻ hoặc đăng ký tài khoản rườm rà.
+ 2. PHÂN TÍCH YÊU CẦU ĐẦU RA
+ Tại sao dùng toán tử filetype: lại giúp tiết kiệm thời gian hơn so với gõ "tải sách..." thông thường?
+- Tránh các trang trung gian rác: Khi gõ tìm kiếm chung chung như "tải sách nhập môn công nghệ thông tin", Google sẽ trả về hàng loạt trang web blog cá nhân, diễn đàn, hoặc các trang trung gian chứa đầy quảng cáo, mã độc, hoặc yêu cầu nạp tiền để tải về. Người dùng sẽ phải tốn rất nhiều thời gian bấm vào từng trang để dò tìm link tải thực tế.
+- Đi thẳng đến mục tiêu: Toán tử `filetype:pdf` ép bộ máy tìm kiếm chỉ quét các file tài liệu nằm trực tiếp trên máy chủ. Kết quả trả về cho phép bạn nhìn thấy và tải thẳng file PDF về máy chỉ với một cú click chuột duy nhất, giúp tiết kiệm tối đa thời gian và đảm bảo an toàn cho thiết bị.
+
+
